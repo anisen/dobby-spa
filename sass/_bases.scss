@@ -2,6 +2,7 @@ body{
 	margin:0;
 	padding:0;
 	background-color:#f4f4f4;
+	font-family: 'Raleway', sans-serif;
 }
 /*------NAV-------*/
 nav{
@@ -21,7 +22,7 @@ nav{
 	bottom:60px;
 	height:500px;
 }
-.h4-segundaSection{
+.h5-segundaSection{
 	text-align:center;
 	position:relative;
 	bottom:40px;
@@ -32,6 +33,7 @@ nav{
 	padding-left:18px;
 	position:relative;
 	bottom:30px;
+	font-size:13px;
 }
 .boton-segundaSection{
 	text-align:center;
@@ -51,7 +53,10 @@ nav{
 .h3-welcome{
 	color:#d86d3f;
 }
-
+.fa{
+	color:#8d6953;
+	padding-right:10px;
+}
 /*------ HOME ---->*/
 #home{
 	background-color:#4a3a3a;
@@ -68,7 +73,12 @@ nav{
 .image-home{
 	border-radius:10px;
 }
-
+.home-h4-izquierda{
+	padding-right:15px;
+}
+.home-h4-derecha{
+	padding-left:15px;
+}
 /* -------- FOOTER----*/
 footer{
 	background-color:#2f1f1f;
@@ -79,4 +89,14 @@ footer{
 }
 .circulo-icons{
 	@include icons();
+	margin-right:20px;
+}
+.margen-cero{
+	margin:0;
+}
+.footer-people-h6{
+	padding-top:50px;
+}
+.footer-people-p{
+	margin-bottom:30px;
 }
